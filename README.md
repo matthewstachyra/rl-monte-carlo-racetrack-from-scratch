@@ -1,8 +1,8 @@
 # From scratch - On Policy Monte Carlo Control
 
-Below is the racetrack the agent learns an optimal policy for.
+Below is the racetrack the agent learns an optimal policy to get from the start line to the finish line. The `s` character represents any via start position; the `f` character represents any viable finish position; `1` represents a valid part of the track that the agent can move to while `0` represents an invalid part of the track, or what is out of bounds.
 	
-`0000000000000000011111111111111f
+0000000000000000011111111111111f
 0000000000000011111111111111111f
 0000000000000111111111111111111f
 0000000000001111111111111111111f
@@ -32,5 +32,8 @@ Below is the racetrack the agent learns an optimal policy for.
 01111111111111111111111000000000
 11111111111111111111111000000000
 11111111111111111111111000000000
-sssssssssssssssssssssss000000000`
+sssssssssssssssssssssss000000000
 
+This repo uses pipenv but all that's required is `numpy` to get this running.
+
+`python main` or `pipenv run python main`
