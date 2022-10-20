@@ -6,4 +6,4 @@ Below is the racetrack the agent learns an optimal policy to get from the start 
 
 This repo uses pipenv but all that's required is `numpy` to get this running.
 
-`python main` or `pipenv shell` followed by pipenv run python main`
+`python main` or `pipenv shell` followed by `pipenv run python main`
